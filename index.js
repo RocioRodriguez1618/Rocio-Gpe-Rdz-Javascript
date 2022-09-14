@@ -1,358 +1,329 @@
-
-// console.log();
-
-// //comemntario de  linea
-// fglugg
-// kjgo
-// hoh
-
-// /* comentario de bloque
-// dyfufulfl 
-// hfouygñgñg 
-// foguñghñ
-// */
-
-// //Definicionaes de variable o aignacion
-// nombre = "andres"
-
-// let edad=5;
-
-// const EDAD = 5;
-// EDAD = 6; 
-
-// let numeroUnoBonito
-
-// let numeroUno = 3;
-
-// let numeroDos = 2;
-// let suma= numeroUno + numeroDos;
-// console.loh();
-
-// let saludo = "Hola";
-// let nombre = "Gonza";
-// let mensaje = saludo + = = + nombre;
-// console.log("------aca se puede comentar----", mensaje);
-
-
-// numero_uno_bonito
-
-// let edad = 10;
-
-// let nombre = "andres";
-
-// console.log("Bienvenido señor " + nombre + " tienes " + edad + " de edad");
-
-// let nombre = prompt("ingresa el nombre");
-// console.log("Hola " + nombre);    // es un strim 
-// let nombre = prompt("ingresa el nombre");
-// let mensaje = "Bienvenido@ " + nombre;
-// let edad = "Bienvenido@ " + nombre + " de edad";
-
-// alert(mensaje);
-// let nombre = "andres";
-
-// if(nombre === "andres"){
-//     console.log("entramos");
-
-// }
-// console.log("terminamos");
-// let nombre = prompt("ingrese su nombre").toLocaleUpperCase();
-
-// if (nombre === "felipe"){
-
-// }
-// alert("terinammos");
-
-
-// /* estructura if else */
-
-//  let nombre = prompt("ingresa el nombre").toLowerCase();
-
-//  if(nombre === "andres")
-// let nombre = prompt("ingrese su nombre").toLowerCase();
-
-// if(nombre === "andrés"){
-//   alert("Hola Felipe");
-// }else{
-//   alert("quien eres?");
-// }
-
-// alert("terminamos");
-
-// let respuesta = prompt("terminaste la tarea?");
-
-// if(respuesta === "si"){
-
-// }
-
-// estructura del if else ifif(conicion)
-
-// {
-//     codigo a ejecutar cuando la condicion es verdadera 
-// }
-
-// let edad = parseInt(prompt("Ingrese su edad"));
-
-// if(edad < 15){
-// alert("No puedes entrar");
-// }else if(edad < 18){
-//     alert("Puede entrar con un adulto");
-// }else{
-// alert("puede entrar a la fista");    
-// }
-// let number = prompt( "ingrese un numero");
-
-// if(number > 1000){
-//   alert("es mayotr a mil");
-// }else {
-//   alert("es menor a 1000");
-// } 
-
-
-/* repetir codigo  estructura dell foe*/
-// for(AudioDestinationNode; HashChangeEvent; actualizacion){
-//     codigo a repartir 
-// // }
-// for(let i = 10; i < 100;  i = i + 5){
-//     console.log(i);
-// }
-
-
-/* for(let i = 0; i <= 10; i++){
-  if(i === 5){
-    break;
-  }
-
-  console.log(i);
-}
-
-console.log("terminamos"); */
-
-/* for(let i = 0; i <= 10; i++){
-  if(i === 5){
-    continue;
-  }
-
-  console.log(i);
-}
-
-console.log("terminamos"); */
-
-// for (let i = 0; i <= 10; i++) {
-//     if (i === 5) {
-//         break;
-//     }
-
-//     console.log(i);
-// }
-
-// console.log("terminamos");
-
-//  for(let i = 0; i <= 10; i++){
-//   if(i === 5){
-//     continue;
-//   }
-
-//   console.log(i);
-// }
-
-// console.log("terminamos"); 
-
-
-
-// while(entrada != "ESC" )
-//    switch (entrada) {
-//        case "NO PUEDES INGRESAR":
-//             alert("NIVEL NO COMPLETADO");
-//             break;
-//         case "NO PUEDES INGRESAR":
-//             alert("NIVEL NO COMPLETADO");
-//             break;
-//        default:
-//            alert("BIENVENIDO NIVEL COMPLETADO")
-//            break;
-//    }
-
-// calcular costo total de productos selecionado por usuario
-//calcular pagos en cuotas cobr un monto determinado 
-//cACULAR VALOR FINAL DE UN PRODUCYO SELECIONADO EN FUCNCIN DE IMPUESTOS Y DESCUENTOS 
-//CALUCLAR TIEMPO DE ESPERA PROMEDIO SEN RELACION YE¡N CANTIFDAD Y TINRNOS REGISTRADOS 
-//CACULAR EDAD PROMEDIO DE PEROSNAS REGISTRADAS 
-//CAC UÑAR NOTA DINAL DE ALUMNOS INGRESADOS 
-
-// let nombre = prompt('PARA CONTINUAR INGRESE SU NOMBRE: ');
-// confirm('Hola ' + nombre + '!');
-
-// let ejecutar = true;
-// let num1 = 0;
-// let num2 = 0;
-// while (ejecutar) {
-
-let = parseInt(prompt('Escribe tu nombre')); 
-    const nombre1 = "Ana";
-    const nombre2 = "Valeria";
-    const nombre3 = "Lorena";
-    const nombre4 = "Jessica";
-    const nombre5 = "Mario";
-    const nombre6 = "Martín";
-    console.log(nombre1);
-    console.log(nombre2);
-    console.log(nombre3);
-    console.log(nombre4);
-    console.log(nombre5);
-    console.log(nombre6);
-     alert('Vamos a empezar' );
-   
-/*_______________________________________2 ENTREGA______________________/*
-  // let opcion = parseInt(prompt('Seleciona una opcion: 1-sumar o 2-restar o 5-Salir'));
-  // switch (opcion) {
-  //   case 1:
-  //     num1 = parseInt(prompt('Ingrese el 1er numero: '));
-  //     num2 = parseInt(prompt('Ingrese el 2do numero: '));
-  //     console.log(num1 + ' + ' + num2 + ' = ' + suma(num1 + num2));
-  //     break;
-  //   case 2:
-  //     num1 = parseInt(prompt('Ingresa el primer numero: '));
-  //     num2 = parseInt(prompt('Ingresa el segundo numero: '));
-  //     console.log(num1 + ' - ' + num2 + ' = ' + (num1 - num2));
-  //     break;
-  //   case 3:
-  //     ejecutar = false;
-  //     break;
-  //   default:
-  //     alert('Ingresaste una opcion erronea, ingresa otra vez');
-  
-  
-  
-  
-  //const array = [1, 2, 3, 4];
-let sum = 0;
-
-for (let i = 0; i < array.length; i++) {
-   sum += array[i]
-
- console.log(sum);
-// let nombre = prompt('PARA CONTINUAR INGRESE SU NOMBRE: ');
-// confirm('Hola ' + nombre + '!');
-
-//  let nombre = prompt('PARA CONTINUAR INGRESE SU NOMBRE: ');
-// sconfirm('Hola ' + nombre + '!');
-//  let ejecutar = true;
-// let num1 = 0;
-// let num2 = 0;
-// while (ejecutar) {
-//   let opcion = parseInt(prompt('Seleciona una opcion: 1-sumar o 2-restar o 5-Salir'));
-//   switch (opcion) {
-//     case 1:
-//       num1 = parseInt(prompt('Ingrese el 1er numero: '));
-//       num2 = parseInt(prompt('Ingrese el 2do numero: '));
-//       console.log(num1 + ' + ' + num2 + ' = ' + suma(num1 + num2));
-//       break;
-//     case 2:
-//       num1 = parseInt(prompt('Ingresa el primer numero: '));
-//       num2 = parseInt(prompt('Ingresa el segundo numero: '));
-//       console.log(num1 + ' - ' + num2 + ' = ' + (num1 - num2));
-//       break;
-//     case 3:
-//       ejecutar = false;
-//       break;
-//     default:
-//       alert('Ingresaste una opcion erronea, ingresa otra vez');
-//   }
-
-// let total=0,numeros = [0,1, 2, 3, 4, 5,6,7,8,9,10];
-// numeros.forEach(function(a){total += a;});
-// console.log(total);
-
-//let moneda = prompt("Que tipo de conversión de moneda desea hacer")
- /* 
-//estructura de una funcion con parametros
-function nombreFuncion(parm1, parm2, parmn) {
-  // codigo a ejecutar por la funcion
-}
-
-function sumar(numero1, numero2) {
-  alert(numero1 + numero2);
-}
-let num1 = parseInt(prompt("Ingrese el primer numero"));
-let num2 = parseInt(prompt("Ingrese el segundo numero"));
-sumar(num1, num2);
-
-function sumar(x, y) {
-  return x + y;
-}
-let resultado = 9;
-console.log("retorno de la suma", resultado); * /
-
-function saludar(x, y) {
-  console.log("hola");
-  return
-  console.log("chao");
-}
-saludar(); * /
-
-function calculadora(numero1, numero2, operacion) {
-  switch (operacion) {
-    case "+":
-      return numero1 + numero2;
-      break;
-    case "-":
-      return numero1 - numero2;
-      break;
-    case "/":
-      return numero1 / numero2;
-      break;
-    case "*":
-      return numero1 * numero2;
-      break;
-    default:
-      return "operacion no valida";
-      break;
-  }
-}
-let numero1 = parseInt(prompt("ingrese numero 1"));
-let numero2 = parseInt(prompt("ingrese numero 2"));
-let operacion = prompt("Ingrese la operacion");
-let resultado = calculadora(numero1, numero2, operacion);
-alert(resultado);
-
-//SCOPE
+//*ARRAY
+const PRODUCTOS = [{
+  "id": 1,
+  "nombre": "Rub Rojo",
+  "precio": 99,
+  "cantidad": 1
+},
 {
-  let mensaje = "Hola";
+  "id": 2,
+  "nombre": "Sal Ahumada Original",
+  "precio": 135,
+  "cantidad": 1
+},
+{
+  "id": 3,
+  "nombre": "Salsa de Ajo",
+  "precio": 99,
+  "cantidad": 1
+},
+{
+  "id": 4,
+  "nombre": "Salsa de Serrano",
+  "precio": 99,
+  "cantidad": 1
+},
+{
+  "id": 5,
+  "nombre": "Rub del norte",
+  "precio": 99,
+  "cantidad": 1
+},
+{
+  "id": 6,
+  "nombre": "Rub de la costa",
+  "precio": 99,
+  "cantidad": 1
+},
+{
+  "id": 7,
+  "nombre": "Chicharron de habanero",
+  "precio": 145,
+  "cantidad": 1
+},
+{
+  "id": 8,
+  "nombre": "Salsa de Aguachile",
+  "precio": 99,
+  "cantidad": 1
 }
-console.log(mensaje);
+]
 
-let resultado;
-function sumar(primerNumero, segundoNumero) {
-  resultado = primerNumero + segundoNumero;
-}
-sumar(5, 6);
-//Se puede acceder a la variable resultado porque es global
-console.log(resultado);
+//* Array para generar el carrito
+const CARRITO = [];
 
-function sumar(num1, num2) {
-  let resultado = num1 + num2;
-  return resultado;
+let compra = prompt("Desea comprar algo");
+
+if (compra == null) { // si 'let comprar = "" ' y da cancelar
+  alert(`
+  Haz dado click en Cancelar
+  Gracias por visitarnos, vuelva cuando quiera`);
 }
-function restar(num1, num2) {
-  let resultado = num1 - num2;
-  return resultado;
+if (compra == "") {
+  alert("No has seleccionado ningún producto"); // si 'let comprar = "" ' y da aceptar
 }
-const suma = function (a, b) {
-  return a + b;
+
+
+if (compra.toLowerCase() == "si") { // si 'let compra = si' => pregunta filtro
+
+  let filtrar = prompt(`
+  Deseas filtrar por precio? Si/No
+`).toLowerCase();
+
+  if (filtrar == "si") { // si 'let filtrar = si' => ingrese precio a filtrar.
+
+    let precio = Number(
+      prompt(`Ingrese el precio (MXN) que desea filtrar: `)
+    );
+
+    const productosFiltrados = filtrarPrecio(precio);
+    // funcion 'filtrarPrecio' y almaceno en una variable const
+
+    alert("Filtro precios mayores a MXN" + precio + "\nContinue para ver los Productos");
+
+
+    let eleccionFiltrados;
+
+    while (eleccionFiltrados != 0) {
+
+      eleccionFiltrados = prompt(`
+            ${VerFiltro(productosFiltrados)}
+            A continuación seleccione el producto por su ID
+       `);
+
+
+      if (eleccionFiltrados == null) {
+        alert("Gracias por visitarnos, vuelva cuando quiera");
+        break;
+      }
+
+      if (eleccionFiltrados == 0) {
+        break;
+      }
+
+      agregarProductosAlCarrito(productosFiltrados, parseInt(eleccionFiltrados));
+      console.log(sumarTotal());
+
+
+    }
+
+
+    let eliminar = prompt(`
+  Deseas eliminar algun producto del carrito?
+  Si / No
+  `).toLowerCase();
+
+    if (eliminar == "si") {
+      console.log(CARRITO);
+
+      eliminarProductoCarrito();
+
+      alert(`
+       La suma total del carrito es: MXN ${sumarTotal(CARRITO)}
+       `)
+      // FINAL COMPRANDO CON FILTRO ELIMINANDO PROD. DEL CARRITO
+
+
+
+    } else {
+
+      alert(`
+       La suma total del carrito es: MXN${sumarTotal(CARRITO)}
+       `)
+      // FINAL COMPRANDO CON FILTRO SIN ELIMINAR PROD. DEL CARRITO
+
+    }
+
+
+
+
+  } else { // si 'let filtrar = no' => muestro productos.
+
+    let eleccionProductos = "";
+
+    while (eleccionProductos != "no") {
+      eleccionProductos = prompt(`
+       ¿Que productos deseas agregar al carrito?
+       Para dejar de comprar, escribir NO
+       
+       Ingresa 1 para comprar: Rub Rojo
+       Ingresa 2 para comprar: Sal Ahumada Original
+       Ingresa 3 para comprar: Salsa de Ajo
+       Ingresa 4 para comprar: Salsa de Serrano
+       Ingresa 5 para comprar: Rub del norte
+       Ingresa 6 para comprar: Rub de la Costa
+       Ingresa 7 para comprar: Chihcarron de habanero
+       Ingresa 8 para comprar: Salsa de Aguachile
+
+       `).toLowerCase()
+
+      if (eleccionProductos == null) {
+        alert("Gracias parrillero, el fuego nos une");
+        break;
+      }
+
+      if (eleccionProductos == "no") {
+        break;
+      }
+
+      agregarProductosAlCarrito(PRODUCTOS, parseInt(eleccionProductos));
+
+      console.log(sumarTotal()); // muestro el total de carrito al añadir productos.
+    }
+
+    let eliminar = prompt(`
+       Deseas eliminar algun producto del carrito?
+       Si / No
+       `).toLowerCase();
+
+
+    if (eliminar == "si") {
+      console.log(CARRITO);
+
+      eliminarProductoCarrito();
+
+      alert(`
+       La suma total del carrito es: MXN ${sumarTotal(CARRITO)}
+       `)
+      // FINAL COMPRANDO SIN FILTRO ELIMINANDO PROD. DEL CARRITO
+
+    } else {
+
+      alert(`
+       La suma total del carrito es: MXN${sumarTotal(CARRITO)};
+       `)
+      // FINAL COMPRANDO SIN FILTRO SIN ELIMINAR PROD. DEL CARRITO
+
+    }
+  }
+
+
+
+} else {
+  alert("Gracias Parrillero, el fuego nos une");
+  // FINAL DIRECTO SIN COMPRAR
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* FUNCIONES UTILIZADAS
+
+// FILTRO DE PRECIO
+function filtrarPrecio(precio) {
+
+  let filtrados = PRODUCTOS.filter(producto => producto.precio >= precio);
+
+  return filtrados;
+}
+
+
+
+// VER PRODUCTOS FILTRADOS
+function VerFiltro(productosFiltrados) {
+  let verProdFiltrados = "Para terminar digite el número 0 (cero)\n\nProductos filtrados: \n"
+
+  productosFiltrados.forEach((producto) => verProdFiltrados += `
+  ID: ${producto.id} - ${producto.nombre}  -  MXN ${producto.precio}
+  `);
+  return (verProdFiltrados);
 };
-/let suma = (a, b) => a + b;
-console.log(suma(6, 8));
 
-saludo();
-function saludo() {
+
+
+
+
+
+
+// AGREGAR PRODUCTOS AL CARRITO
+function agregarProductosAlCarrito(array, id) {
+
+  let producto = array.find(producto => producto.id === id);
+
+  let productoEnCarrito = CARRITO.find(producto => producto.id === id);
+
+
+  if (productoEnCarrito) {
+
+    productoEnCarrito.cantidad++; // Si esta en el carrito aumenta cantidad en +1
+    console.log(CARRITO);
+
+  } else { // Si no esta en el carrito, lo agrego con .push
+
+    producto.cantidad = 1;
+    CARRITO.push(producto);
+    console.log(CARRITO);
+  }
+
 }
-const saludo = () => { }
-const suma = (a, b) => a + b;
-const resta = (a, b) => a - b;
-const iva = x => x * 0.21;
-let precioProducto = 500;
-let descuento = 50;
 
-let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
-console.log(nuevoPrecio);*/
+
+// ELIMINAR PRODUCTOS DEL CARRITO
+function eliminarProductoCarrito() {
+
+  let id = Number(prompt("Ingresa el producto que deseas agregar"));
+
+  let productoEnCarrito = CARRITO.find(producto => producto.id === id); // busco el ID en carrito.
+
+
+  if (productoEnCarrito) { // Si existe coincidencia => resto cantidad o elimino totalmente
+
+    if (productoEnCarrito.cantidad > 1) { // si la cantidad es >1 resto cantidad en -1
+
+      productoEnCarrito.cantidad--;
+      console.log(CARRITO);
+
+    } else {
+
+      CARRITO.splice(CARRITO.indexOf(productoEnCarrito), 1);
+      // splice buscará desde la coincidencia estricta de indexOf y elminará el total del objeto del array CARRITO
+
+      console.log(CARRITO);
+    }
+
+
+  } else {
+
+    alert("Ups parrillero el prodcuto no existe en el carrito")
+  }
+}
+
+
+
+
+
+
+// SUMAR TOTAL (precio) DEL CARRITO 
+function sumarTotal() {
+
+  let total = 0;
+
+  CARRITO.forEach(producto => {
+
+    total += producto.cantidad * producto.precio;
+  })
+
+  return total;
+}
