@@ -1,17 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="./index.js"> </script>
-</head>
-<body>
-
-<h1>Curso Javascript Rocio Rodriguez</h1>
-
- 
-
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tienda</title>
+  </head>
+  
+  <body>
+      <!--------------------------------header------------------------------------>
+      <header class="navbar navbar-dark bg-dark navbar-expand-lg">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="header_imagensmp" src="./imagenes/smp.png" alt=" smp parrilleros"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../html/tienda.html">TIENDA</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../html/tips.html">TIPS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                  </form>
+              </div>
+          </div>
+      </header>
+      <!--------------------------------main------------------------------------>
+      <main>
+  
+  
+          <div class="grid-container">
+              <div class="titulo">
+                  <h1>Grill Days</h1>
+              </div>
+              <div class="cuchillo"><img src="./imagenes/cuchillosantoku.jpg" alt="cuchillo santoku"></div>
+              <div class="cuchillo"><img src="./imagenes/brisket.png.jpg" alt="cuchillo brisket"></div>
+              <div class="cuchillo"><img src="./imagenes/cuchillosantoku.jpg" alt="cuchillosantoku"></div>
+              <div class="Cuchillo"><img src="./imagenes/cuchillochef.png.jpg" alt="cuchillo chef"></div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="titulo">
+                  <h2>LÍNEA DE SALES</h2>
+              </div>
+              <div class="item"><img src="./imagenes/salpiquín.jpg" alt="sal ahumada piquín"></div>
+              <div class="item"><img src="./imagenes/saloriginal.jpg" alt="sal ahumada original"></div>
+              <div class="item"><img src="./imagenes/salhabanero.jpg" alt="sal ahumada habanero"></div>
+              <div class="item"><img src="./imagenes/salchipotle.jpg" alt="sal ahumada chipotle"></div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="titulo">
+                  <h2>LÍNEA DE SALSAS</h2>
+              </div>
+              <div class="item"><img src="./imagenes/salsaladeserrano.jpg" alt="salsa de serrano"></div>
+              <div class="item"> <img src="./imagenes/salsadeajo.jpg" alt="salsa de ajo"></div>
+              <div class="item"><img src="./imagenes/salsalsalablanca.jpg" alt="salsa la blanca"></div>
+              <div class="item"><img src="./imagenes/salsadeaguachile.jpg" alt="salsa de aguachile"></div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+              <div class="buttonbuy">Comprar</div>
+          </div>
+  
+          </div>
+          <section class="main__irarriba--contenedor"><a href="../html/tienda.html"><img src="./imagenes/irarriba.svg"
+                      class="main__irarriba--incono"></a>
+  
+              </div>
+              <div class="container">
+                <div class="row">
+                    <!-- Elementos generados a partir del JSON -->
+                    <main id="items" class="col-sm-8 row"></main>
+                    <!-- Carrito -->
+                    <aside class="col-sm-4">
+                        <h2>Carrito</h2>
+                        <!-- Elementos del carrito -->
+                        <ul id="carrito" class="list-group"></ul>
+                        <hr>
+                        <!-- Precio total -->
+                        <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                        <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                    </aside>
+                </div>
+            </div>
+            
+  
+      </main>
+  
+  
+      <!--------------------------------footer------------------------------------>
+      <footer class="bg-dark text-white text-center text-lg-start">
+  
+          <div class="container p-4">
+  
+              <div class="row">
+  
+                  <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                      <h5 class="text-uppercase">SOCIEDAD MEXICANA DE PARRILLEROS</h5>
+  
+                      <p>
+                          Porque sin la razita no podriamos ser el alma de la braza.
+                      <p>¡El fuego nos une y la carne asada tambien!</p>
+  
+                      </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                      <h5 class="text-uppercase">DUDAS</h5>
+  
+                      <ul class="list-unstyled mb-0">
+                          <li>
+                              <div class="text-white">Contactanos</div>
+                          </li>
+                      </ul>
+                      <div class="footer">
+                          <p class="footer__dudas">Duda o aclaraciones mandanos un whatsapp o correo:</p>
+                          <span><a href="mailto:tienda@soyparrillero.mx"><img src="./imagenes/logoemail.png"
+                                      alt="logo email" class="footer__inconos">tienda@soyparrillero.mx</a>
+                              <a href="tel:+8124125724"><img src="./imagenes/logowhatsapp.png" alt="logo whatsapp"
+                                      class="footer__inconos">8124125724</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  
+                  <a class="text-white" href="../index.html">SOYPARRILLERO.MX</a>
+              </div>
+       <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+   crossorigin="anonymous"></script></footer>
+  
+  </body>
+  
+  </html>
+<script src="./index.js"> </script>
 </body>
 </html>
+
